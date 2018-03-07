@@ -1,0 +1,64 @@
+header {
+    background-color: lightblue;
+    height: 300px;
+    border-radius: 10px;}
+    .logo {
+        height: 300px;
+    position: absolute;
+    left: 300px;
+    border-radius: 10px;  
+}
+nav {
+    background-color: rgb(60, 200, 250);
+    height: auto;
+    width: 200px;
+    border-radius: 10px;
+}
+main {
+   background-color: rgb(215, 238, 247); 
+   height: auto;
+width: 100%;
+margin: 0 20px;
+border-radius: 10px;
+padding: 10px;}
+.photo {height: 400px;
+    width: 370px;
+    margin-left: 200px;
+     
+}
+.Description {
+width: 400px;
+left: 10px;
+
+}
+aside {
+    background-color: rgb(60, 200, 250);
+    height: auto;
+    width: 300px;
+    border-radius: 10px;
+}
+footer {
+    background-color: rgb(68, 202, 255);
+    height: auto;
+    border-radius: 10px;
+    font-family: 'Mukta Malar', sans-serif;
+    -webkit-text-fill-color: rgb(240, 17, 192);
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    height: fit-content;
+    background: rgb(222, 242, 250);
+    padding: 10px; 
+    flex-shrink: initial;
+    -ms-flex-align: stretch;} 
+   
+@media only screen and (max-width: 900px) {
+    .container {
+        display:block; 
+
+    }
+}
